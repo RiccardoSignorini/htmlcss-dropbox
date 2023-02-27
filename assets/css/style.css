@@ -41,6 +41,21 @@ h1{
     display: flex;
 }
 
+/* MAIN */
+.larg-100{
+    width: 100%;
+}
+
 .border{
     border: 1px solid lightgrey;
+    width: 400px;
+}
+
+.blue-sottolineato{
+    color: rgb(68, 161, 255);
+    text-decoration: underline;
+}
+
+ul li{
+    margin-left: 20px;
 }
