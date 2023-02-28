@@ -166,11 +166,6 @@ h2{
     color: rgb(0, 146, 195);
 }
 
-.large-bottom{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .pad-top-bot{
     padding: 30px 0;
 }
@@ -181,6 +176,15 @@ h4{
 
 .mar-top-bot{
     margin: 30px 0;
+}
+
+.white-button{
+    border: 1px solid black;
+}
+
+.white-button:hover{
+    color: rgb(161, 161, 161);
+    border: 1px solid rgb(161, 161, 161);
 }
 
 /* FOOTER */
