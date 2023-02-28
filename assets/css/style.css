@@ -151,3 +151,14 @@ h2{
 .padding-bottom{
     padding-bottom: 22px;
 }
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.larg-80{
+    width: 80%;
+    margin: 0 auto;
+}
