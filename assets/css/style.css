@@ -11,6 +11,7 @@ header{
     line-height: 60px;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 
 nav{
@@ -52,11 +53,12 @@ a{
 }
 
 /* MAIN */
+/* SEZIONE 1 */
 .back-lightblue{
     background-color: rgb(166, 194, 246);
 }
 
-.larg-80{
+.larg-70{
     width: 70%;
     margin: 0 auto;
 }
@@ -66,7 +68,7 @@ h1{
     margin-bottom: 20px;
 }
 
-p{
+.margin{
     margin: 50px 0;
 }
 
@@ -74,23 +76,78 @@ p{
     display: flex;
 }
 
-.larg-30{
+.larg-1{
     flex-basis: 30%;
 }
 
-.larg-70{
+.larg-2{
     flex-basis: 70%;
 }
 
-.larg-80 .larg-70 img{
+.larg-70 .larg-2 img{
     width: 100%;
 }
-
-/* .fa-arrow-down{
-    margin-top: 10px;
-} */
 
 .relative{
     position: relative;
     bottom: -60px;
+}
+
+/* SEZIONE 2 */
+h2{
+    font-size: 35px;
+}
+
+.margin-top{
+    margin-top: 150px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.larg-30{
+    flex-basis: 30%;
+    border: 1px solid black;
+}
+
+.titolo{
+    padding: 8px;
+    text-align: center;
+}
+
+.corpo{
+    padding: 8px;
+}
+
+.corpo ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.user::before{
+    font: var(--fa-font-solid);
+    content: "\f007";
+}
+
+.cloud::before{
+    font: var(--fa-font-solid);
+    content: "\f07b";
+}
+
+.share::before{
+    font: var(--fa-font-solid);
+    content: "\f1e0";
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.color-grey{
+    color: rgb(166, 166, 166);
+}
+
+.padding-bottom{
+    padding-bottom: 22px;
 }
