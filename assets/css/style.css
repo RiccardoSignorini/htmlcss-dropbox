@@ -98,6 +98,7 @@ h1{
 /* SEZIONE 2 */
 h2{
     font-size: 35px;
+    padding-top: 100px;
 }
 
 .space-between{
@@ -147,12 +148,17 @@ h2{
     color: rgb(0, 146, 195);
 }
 
+.link:hover{
+    opacity: 0.7;
+}
+
 .bold{
     font-weight: bold;
 }
 
 .color-grey{
     color: rgb(166, 166, 166);
+    padding-bottom: 20px;
 }
 
 .padding-bottom{
@@ -192,18 +198,23 @@ h4{
     text-align: center;
 }
 
+hr{
+    width: 50px;
+    margin: 20px 0;
+}
+
 /* SEZIONE 3 */
 #gran-80{
     width: 80%;
 }
 
 /* SEZIONE 4 */
-.larg-30 h3{
+#riquadri div h3{
     padding-bottom: 30px;
 }
 
-h2{
-    padding-top: 100px;
+#riquadri div{
+    padding: 20px 0;
 }
 
 /* FOOTER */
@@ -215,4 +226,9 @@ footer{
 .larg-80{
     width: 80%;
     margin: 0 auto;
+}
+
+#before::before{
+    font: var(--fa-font-solid);
+    content: "\f7a2";
 }
