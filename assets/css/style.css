@@ -100,16 +100,15 @@ h2{
     font-size: 35px;
 }
 
-.margin-top{
-    margin-top: 150px;
-}
-
 .space-between{
     justify-content: space-between;
 }
 
 .larg-30{
     flex-basis: 30%;
+}
+
+.border{
     border: 1px solid black;
 }
 
@@ -185,6 +184,26 @@ h4{
 .white-button:hover{
     color: rgb(161, 161, 161);
     border: 1px solid rgb(161, 161, 161);
+}
+
+.full-button{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/* SEZIONE 3 */
+#gran-80{
+    width: 80%;
+}
+
+/* SEZIONE 4 */
+.larg-30 h3{
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-top: 100px;
 }
 
 /* FOOTER */
