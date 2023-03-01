@@ -221,17 +221,63 @@ hr{
 .partners{
     width: calc(100%/3);
     aspect-ratio: 1;
-    border: 1px solid black;
 }
 
 .zona-x4{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
+    position: relative;
+    background-color: red;
+}
+
+.zona-x4 img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 .wrap{
     flex-wrap: wrap;
+}
+
+#back-1{
+    background-color: rgb(164, 210, 168);
+    border: 10px solid rgb(210, 232, 206);
+}
+
+#back-2{
+    background-color: rgb(97, 8, 42);
+}
+
+#back-3{
+    background-color: rgb(0, 149, 204);
+}
+
+#back-4{
+    background-color: rgb(253, 20, 32);
+}
+
+#back-5{
+    background-color: rgb(245, 245, 245);
+}
+
+#back-6{
+    background-color: rgb(213, 0, 33);
+}
+
+.back-7{
+    background-color: rgb(179, 209, 230);
+}
+
+#back-8{
+    background-color: rgb(0, 43, 126);
+}
+
+#back-9{
+    background-color: rgb(255, 213, 69);
 }
 
 /* FOOTER */
