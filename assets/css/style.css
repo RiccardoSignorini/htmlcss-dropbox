@@ -310,6 +310,11 @@ h4{
 #padding-bottom{
     padding-bottom: 100px;
 }
+
+#faq div hr{
+    margin: 25px 0;
+}
+
 /* FOOTER */
 footer{
     background-color: black;
