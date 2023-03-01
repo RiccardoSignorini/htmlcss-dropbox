@@ -217,6 +217,23 @@ hr{
     padding: 20px 0;
 }
 
+/* SEZIONE 5 */
+.partners{
+    width: calc(100%/3);
+    aspect-ratio: 1;
+    border: 1px solid black;
+}
+
+.zona-x4{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 /* FOOTER */
 footer{
     background-color: black;
