@@ -185,6 +185,7 @@ h4{
 
 .white-button{
     border: 1px solid black;
+    background-color: white;
 }
 
 .white-button:hover{
@@ -198,7 +199,7 @@ h4{
     text-align: center;
 }
 
-hr{
+.corpo hr, #back-5 hr{
     width: 50px;
     margin: 20px 0;
 }
@@ -262,6 +263,11 @@ hr{
 
 #back-5{
     background-color: rgb(245, 245, 245);
+    padding: 30px;
+}
+
+#back-5 p{
+    padding: 20px 0;
 }
 
 #back-6{
@@ -280,6 +286,30 @@ hr{
     background-color: rgb(255, 213, 69);
 }
 
+.inline{
+    display: inline-block;
+}
+
+.alt{
+    height: 300px;
+}
+
+.centr{
+    line-height: 300px;
+}
+
+.larg-3{
+    flex-basis: 50%;
+    align-items: center;
+}
+
+#color-bordeaux{
+    color: rgb(96, 8, 42);
+}
+
+#padding-bottom{
+    padding-bottom: 100px;
+}
 /* FOOTER */
 footer{
     background-color: black;
